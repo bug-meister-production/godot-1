@@ -36,6 +36,7 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." index="1"]
 
+visible = false
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -46,24 +47,28 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
 
+visible = false
 position = Vector2( 204.422, 295.776 )
 scale = Vector2( 17.1561, 4.86195 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" index="1"]
 
+visible = false
 position = Vector2( 204.422, 13.1748 )
 scale = Vector2( 17.1561, 4.86195 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D" index="2"]
 
+visible = false
 position = Vector2( 12.3838, 158.381 )
 scale = Vector2( 0.988132, 47.6419 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" index="3"]
 
+visible = false
 position = Vector2( 396.536, 153.638 )
 scale = Vector2( 0.988132, 47.6419 )
 shape = SubResource( 1 )

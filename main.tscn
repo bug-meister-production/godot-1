@@ -12,26 +12,20 @@ position = Vector2( 149.42, 99.5112 )
 
 [node name="KinematicBody2D" parent="." index="1" instance=ExtResource( 2 )]
 
-visible = false
 position = Vector2( 129.529, 113.771 )
 
 [node name="KinematicBody2D2" parent="." index="2" instance=ExtResource( 2 )]
 
-visible = false
 position = Vector2( 206.56, 76.1209 )
 
 [node name="KinematicBody2D3" parent="." index="3" instance=ExtResource( 2 )]
 
-visible = false
 position = Vector2( 287.407, 102.758 )
 
 [node name="KinematicBody2D4" parent="." index="4" instance=ExtResource( 2 )]
 
-visible = false
 position = Vector2( 208.297, 157.791 )
 
 [node name="tiles" parent="." index="5" instance=ExtResource( 3 )]
-
-visible = false
 
 
